@@ -9,8 +9,7 @@
         <a id="top"></a>
         <div id="cover">
             <div class="navigation">
-                <ul> <li><button id="changePlayerNameButton" class="options-text-button" title="Change your name"><label class="nav-label">You are <input id="player-name" readonly="readonly" maxlength="10"></input></label></li></ul>
-
+                <label class="nav-label">You are <input id="player-name" readonly="readonly" maxlength="10"></input></label>
                 <div class="nav-button-bar">
                     <a href="#top" id="play-or-watch-button" title="Spectate or rejoin game">Watch</a>
                     <a href="#playerSettings" title="Go to settings">Settings</a>
@@ -52,7 +51,7 @@
                 </div>
                 
                 
-               <div style="visibility:hidden" id="adminControls" class="settings-menu">
+               <div id="adminControls" class="settings-menu">
                     <fieldset>
                         <legend>Admin Controls</legend>
                         <div class="options-controls" class="settings-menu">
@@ -77,7 +76,7 @@
                             <button id="resetBotsButton" class="reset-button" title="Reset to Default"/>
                         </div>
                         <div class="options-controls">
-                            <label class="options-label">Start Length: </label>
+                            <label class="options-label">Test Length: </label>
                             <label id="currentStartLength" class="options-value"></label>
                             <button id="decreaseStartLengthButton" class="minus-button" title="-1"/>
                             <button id="increaseStartLengthButton" class="plus-button" title="+1"/>
